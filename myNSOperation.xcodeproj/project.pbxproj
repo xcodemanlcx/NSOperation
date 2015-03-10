@@ -21,6 +21,7 @@
 		BB13FECE192E57A700EA52D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB13FEB0192E57A700EA52D4 /* UIKit.framework */; };
 		BB13FED6192E57A700EA52D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB13FED4192E57A700EA52D4 /* InfoPlist.strings */; };
 		BB13FED8192E57A700EA52D4 /* myNSOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB13FED7192E57A700EA52D4 /* myNSOperationTests.m */; };
+		BB13FEE3192E57E100EA52D4 /* MyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = BB13FEE2192E57E100EA52D4 /* MyOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		BB13FED3192E57A700EA52D4 /* myNSOperationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myNSOperationTests-Info.plist"; sourceTree = "<group>"; };
 		BB13FED5192E57A700EA52D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BB13FED7192E57A700EA52D4 /* myNSOperationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myNSOperationTests.m; sourceTree = "<group>"; };
+		BB13FEE1192E57E100EA52D4 /* MyOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOperation.h; sourceTree = "<group>"; };
+		BB13FEE2192E57E100EA52D4 /* MyOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				BB13FEBE192E57A700EA52D4 /* Main.storyboard */,
 				BB13FEC1192E57A700EA52D4 /* ViewController.h */,
 				BB13FEC2192E57A700EA52D4 /* ViewController.m */,
+				BB13FEE1192E57E100EA52D4 /* MyOperation.h */,
+				BB13FEE2192E57E100EA52D4 /* MyOperation.m */,
 				BB13FEC4192E57A700EA52D4 /* Images.xcassets */,
 				BB13FEB3192E57A700EA52D4 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 				BB13FEC3192E57A700EA52D4 /* ViewController.m in Sources */,
 				BB13FEBD192E57A700EA52D4 /* AppDelegate.m in Sources */,
 				BB13FEB9192E57A700EA52D4 /* main.m in Sources */,
+				BB13FEE3192E57E100EA52D4 /* MyOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +462,7 @@
 				BB13FEDD192E57A700EA52D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BB13FEDE192E57A700EA52D4 /* Build configuration list for PBXNativeTarget "myNSOperationTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				BB13FEE0192E57A700EA52D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

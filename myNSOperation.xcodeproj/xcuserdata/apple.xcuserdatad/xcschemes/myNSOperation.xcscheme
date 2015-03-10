@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0510"
+   LastUpgradeVersion = "0600"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "BB13FEA8192E57A700EA52D4"
                BuildableName = "myNSOperation.app"
                BlueprintName = "myNSOperation"
+               ReferencedContainer = "container:myNSOperation.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BB13FEC9192E57A700EA52D4"
+               BuildableName = "myNSOperationTests.xctest"
+               BlueprintName = "myNSOperationTests"
                ReferencedContainer = "container:myNSOperation.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

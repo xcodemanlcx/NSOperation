@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "MyOperation.h"
+@interface ViewController : UIViewController<postDataDelegate>
 
 @end
